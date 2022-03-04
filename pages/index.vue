@@ -20,11 +20,11 @@
       </v-list-item>
     </v-col>
     <!-- filter name -->
-    <v-col cols="6">
+    <v-col cols="12" md="6">
       <v-text-field v-model="name" label="نام" clearable></v-text-field>
     </v-col>
     <!-- filter date -->
-    <v-col cols="6">
+    <v-col cols="12" md="6">
       <v-menu
         v-model="dateMenu"
         :close-on-content-click="false"
