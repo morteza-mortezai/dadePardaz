@@ -17,7 +17,7 @@
           <!-- count -->
           <v-col cols="6">
             <v-text-field
-              v-model="form.count"
+              v-model.number="form.count"
               type="number"
               dense
               hide-details
